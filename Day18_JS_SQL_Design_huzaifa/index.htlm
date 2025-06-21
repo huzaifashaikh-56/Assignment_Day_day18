@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Mark Entry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Student Mark Entry Form</h2>
+  <form id="markForm">
+    <input type="text" id="studentName" placeholder="Student Name" required>
+    <input type="text" id="subject" placeholder="Subject" required>
+    <input type="number" id="marks" placeholder="Marks" required>
+    <button type="submit">Add Entry</button>
+  </form>
+
+  <h3>Entered Records:</h3>
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th>Student Name</th>
+        <th>Subject</th>
+        <th>Marks</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
